@@ -2,6 +2,8 @@
 @import "colors";
 @import "fonts";
 
+html, body, #app { height: 100% }
+
 body {
   font-family: $fallback-fonts;
   background: $background;
