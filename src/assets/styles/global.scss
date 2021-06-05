@@ -5,6 +5,7 @@
 html, body, #app { height: 100% }
 
 body {
-  font-family: $fallback-fonts;
+  font-family: "Aeonik", $fallback-fonts;
   background: $background;
+  font-weight: bold;
 }
