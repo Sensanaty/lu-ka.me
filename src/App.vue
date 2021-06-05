@@ -1,5 +1,5 @@
 <template>
-  <h1>L U K A</h1>
+  <RouterView />
 </template>
 
 <script>

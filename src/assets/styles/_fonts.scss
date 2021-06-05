@@ -12,3 +12,6 @@
 }
 
 $fallback-fonts: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+
+// Aeonik
+@include fontFamily("Aeonik", "../fonts/Aeonik-Bold/Aeonik-Bold", bold);
