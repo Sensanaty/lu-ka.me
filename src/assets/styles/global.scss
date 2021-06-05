@@ -1,0 +1,8 @@
+@import "normalize.css";
+@import "colors";
+@import "fonts";
+
+body {
+  font-family: $fallback-fonts;
+  background: $background;
+}
