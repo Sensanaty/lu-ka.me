@@ -2,19 +2,19 @@
   <div id="home-wrapper">
     <div class="home-box black" id="about-box">
       <span class="big-letter" aria-hidden="true">L</span>
-      <router-link to="/about" class="white" aria-label="About Luka">ABOUT</router-link>
+      <RouterLink to="/about" class="white" aria-label="About Luka">ABOUT</RouterLink>
     </div>
     <div class="home-box white" id="projects-box">
       <span class="big-letter" aria-hidden="true">U</span>
-      <router-link to="/projects" class="black" aria-label="Luka's Projects">PROJECTS</router-link>
+      <RouterLink to="/projects" class="black" aria-label="Luka's Projects">PROJECTS</RouterLink>
     </div>
     <div class="home-box white" id="contact-box">
       <span class="big-letter" aria-hidden="true">K</span>
-      <router-link to="/contact" class="black" aria-label="Luka's Contact Details">CONTACT</router-link>
+      <RouterLink to="/contact" class="black" aria-label="Luka's Contact Details">CONTACT</RouterLink>
     </div>
     <div class="home-box black" id="blog-box">
       <span class="big-letter" aria-hidden="true">A</span>
-      <router-link to="/rambles" class="white" aria-label="Luka's Blog Posts">RAMBLES</router-link>
+      <RouterLink to="/rambles" class="white" aria-label="Luka's Blog Posts">RAMBLES</RouterLink>
     </div>
   </div>
 </template>
