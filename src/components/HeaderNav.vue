@@ -28,9 +28,9 @@
       text-decoration: none;
       color: $accent;
       background: lighten($background, 4);
-      font-size: 2.3rem;
-      padding: 5px 0;
-      min-width: 18%;
+      font-size: 3rem;
+      padding: 10px 0;
+      min-width: 17%;
       text-align: center;
       letter-spacing: 2px;
       border-top: 2px solid lighten($background, 4);
