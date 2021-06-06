@@ -17,10 +17,12 @@
 </script>
 
 <style lang="scss">
+  /* prettier-ignore */
+  header { margin: 0 0 15px 0 }
+
   nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 15px 0;
 
     a {
       text-decoration: none;
