@@ -14,15 +14,25 @@ const routes = [
     path: "/about",
     component: AboutPage,
     name: "about",
+    meta: {
+      title: "LUKA | ABOUT",
+    },
   },
   {
     path: "/contact",
     component: ContactPage,
     name: "contact",
+    meta: {
+      title: "LUKA | CONTACT",
+    },
   },
 ];
 
 export const router = createRouter({
   history: createWebHistory(),
   routes,
+});
+
+router.afterEach((to) => {
+  document.title = to.meta.title || "LUKA";
 });
