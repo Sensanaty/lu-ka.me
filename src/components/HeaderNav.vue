@@ -1,11 +1,11 @@
 <template>
   <header>
     <nav>
-      <router-link to="/" aria-label="Homepage">LUKA</router-link>
-      <router-link to="/projects" aria-label="Projects">PROJECTS</router-link>
-      <router-link to="/contact" aria-label="Contact">CONTACT</router-link>
-      <router-link to="/rambles" aria-label="Rambles">RAMBLES</router-link>
-      <router-link to="/about" aria-label="About">ABOUT</router-link>
+      <RouterLink to="/" aria-label="Homepage">LUKA</RouterLink>
+      <RouterLink to="/projects" aria-label="Projects">PROJECTS</RouterLink>
+      <RouterLink to="/contact" aria-label="Contact">CONTACT</RouterLink>
+      <RouterLink to="/rambles" aria-label="Rambles">RAMBLES</RouterLink>
+      <RouterLink to="/about" aria-label="About">ABOUT</RouterLink>
     </nav>
   </header>
 </template>

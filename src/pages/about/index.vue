@@ -1,7 +1,7 @@
 <template>
   <div id="about-wrapper">
     <div id="greeting">
-      <h1>Hi, I'm <router-link class="big-link" aria-label="Homepage, labelled 'LUKA'" to="/">LUKA</router-link></h1>
+      <h1>Hi, I'm <RouterLink class="big-link" aria-label="Homepage, labelled 'LUKA'" to="/">LUKA</RouterLink></h1>
 
       <h2>I'm a Fullstack Web Developer</h2>
     </div>
@@ -9,17 +9,17 @@
     <div id="navlinks">
       <span>
         Want to see what I've been working on lately? Check out my
-        <router-link to="/projects" class="small-link" aria-label="Projects">PROJECTS</router-link>
+        <RouterLink to="/projects" class="small-link" aria-label="Projects">PROJECTS</RouterLink>
       </span>
 
       <span>
         Want to talk to me about a potential project? Get in
-        <router-link to="/contact" class="small-link" aria-label="Contact">CONTACT</router-link>
+        <RouterLink to="/contact" class="small-link" aria-label="Contact">CONTACT</RouterLink>
       </span>
 
       <span>
         I write down my thoughts as I make things. Check out my
-        <router-link to="/rambles" class="small-link" aria-label="Rambles">RAMBLES</router-link>
+        <RouterLink to="/rambles" class="small-link" aria-label="Rambles">RAMBLES</RouterLink>
       </span>
     </div>
   </div>
