@@ -141,16 +141,16 @@
 
 <style lang="scss">
   #contact-wrapper {
-    margin: 40px 0;
+    margin: 20px 0;
   }
 
   #icons-wrapper {
     background: lighten($background, 4);
-    height: 90px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     a {
       height: 100%;
@@ -182,24 +182,24 @@
 
     h1 {
       margin-top: 40px;
-      font-size: 4rem;
+      font-size: 3rem;
     }
 
     h2 {
       margin: 25px 0;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
   form {
-    margin-top: 25px;
+    margin-top: 15px;
     width: 50%;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 
     label {
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 500;
     }
 
@@ -214,6 +214,7 @@
       transition: outline 90ms ease-in-out;
       font-weight: 500;
       line-height: 1.45;
+      font-size: 1.2rem;
 
       &:focus {
         outline: 2px solid $accent;
@@ -222,25 +223,24 @@
 
     input {
       width: 50%;
-      font-size: 1.7rem;
     }
 
     textarea {
       width: 100%;
-      min-height: 350px;
+      min-height: 300px;
       resize: none;
-      font-size: 1.45rem;
     }
 
     button {
       background: lighten($background, 4);
       border: none;
       padding: 10px 20px;
-      font-size: 3rem;
+      font-size: 2rem;
       color: $accent;
       font-weight: bold;
       cursor: pointer;
       transition: background 110ms ease-in-out, transform 110ms ease-in-out;
+      margin-bottom: 20px;
 
       &:hover:enabled {
         background: lighten($background, 6);
@@ -261,7 +261,7 @@
     justify-content: center;
     align-items: center;
     color: red;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   #spinner {
