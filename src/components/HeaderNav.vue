@@ -17,9 +17,6 @@
 </script>
 
 <style lang="scss">
-  /* prettier-ignore */
-  header { margin: 0 0 15px 0 }
-
   nav {
     display: flex;
     justify-content: space-between;
@@ -28,7 +25,7 @@
       text-decoration: none;
       color: $accent;
       background: lighten($background, 4);
-      font-size: 3rem;
+      font-size: 2rem;
       padding: 10px 0;
       min-width: 17%;
       text-align: center;
