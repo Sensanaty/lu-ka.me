@@ -4,6 +4,8 @@ import HomePage from "../pages/index.vue";
 import AboutPage from "../pages/about/index.vue";
 import ContactPage from "../pages/contact/index.vue";
 import ProjectsPage from "../pages/projects/index.vue";
+import RamblesPage from "../pages/rambles/index.vue";
+import RamblePost from "../pages/rambles/RamblePost.vue";
 
 const routes = [
   {
@@ -34,6 +36,19 @@ const routes = [
     meta: {
       title: "LUKA | PROJECTS",
     },
+  },
+  {
+    path: "/rambles",
+    component: RamblesPage,
+    name: "rambles",
+    meta: {
+      title: "LUKA | RAMBLES",
+    },
+  },
+  {
+    path: "/rambles/:slug",
+    component: RamblePost,
+    name: "ramble",
   },
 ];
 
