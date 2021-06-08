@@ -141,7 +141,7 @@
 
 <style lang="scss">
   #contact-wrapper {
-    margin: 20px 0;
+    margin: 30px 0;
   }
 
   #icons-wrapper {
