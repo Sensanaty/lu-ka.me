@@ -1,0 +1,9 @@
+.stack-span {
+  &.vue { background: #45B882; color: $background }
+  &.netlify { background: #4A9D8E; color: $background }
+  &.javascript { background: #FFCA3A; color: $background }
+  &.rails { background: red }
+  &.heroku { background: #6762A6 }
+  &.ember { background: #FA9500; color: $background }
+  &.nuxt { background: #05668D }
+}
