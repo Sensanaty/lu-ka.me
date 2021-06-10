@@ -3,7 +3,8 @@
 @import "fonts";
 
 ::selection { background: $accent; color: $background }
-::-webkit-scrollbar { width: 8px; cursor: pointer; }
+
+::-webkit-scrollbar { width: 5px }
 ::-webkit-scrollbar-track { background: $background }
 ::-webkit-scrollbar-thumb {
   background: $accent;
@@ -11,7 +12,6 @@
 
   &:hover {background: darken($accent, 10);}
 }
-
 ::-webkit-scrollbar-button:decrement,
 ::-webkit-scrollbar-button:increment,
 ::-webkit-scrollbar-corner {
@@ -25,4 +25,5 @@ body {
   background: $background;
   font-weight: bold;
   color: $text;
+  overflow: scroll;
 }
