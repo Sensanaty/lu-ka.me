@@ -49,6 +49,7 @@ const routes = [
     path: "/rambles/:slug",
     component: RamblePost,
     name: "ramble",
+    props: true,
   },
 ];
 
