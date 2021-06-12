@@ -5,6 +5,12 @@
  */
 
 import MarkdownIt from "markdown-it";
+import hljs from "highlight.js/lib/core";
+import javascript from "highlight.js/lib/languages/javascript";
+import xml from "highlight.js/lib/languages/xml";
+
+hljs.registerLanguage("javascript", javascript);
+hljs.registerLanguage("xml", xml);
 
 const markdown = new MarkdownIt({
   html: true,
@@ -12,12 +18,17 @@ const markdown = new MarkdownIt({
   langPrefix: "lang-",
   breaks: true,
   linkify: true,
+  highlight: (str) => {
+    return hljs.highlightAuto(str).value;
+  },
 });
 
-export const parseMarkdown = (html) => {
-  console.log("html:", html);
-  const md = markdown.render(html);
-  console.log("md:", md);
-
-  return md;
+/**
+ * Takes a markdown document in string format and parses it with markdown-it. Returns the contents of the markdown as
+ * parsed HTML elements
+ * @param  {string} markdownString
+ * @returns {HTMLElement}
+ */
+export const parseMarkdown = (markdownString) => {
+  return markdown.render(markdownString);
 };
